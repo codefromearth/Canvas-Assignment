@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(114, 105, 105);
+}
+.flexed {
+   
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.flex_right {
+    margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+color: rgb(193, 184, 184);
+  margin-top: 10vh;
+}
+canvas {
+  border: 1px solid #000000;
+  margin: 20px 0;
+}
+
+input[type="number"] {
+  width: 50px;
+  margin: 0 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  margin-left: 10px;
+}
+
+option {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.zoomedDigit {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.zoomedDigitDigit {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .flexed {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+  }
+  .flex_right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: auto;
+    gap: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+    
+  }
+}
